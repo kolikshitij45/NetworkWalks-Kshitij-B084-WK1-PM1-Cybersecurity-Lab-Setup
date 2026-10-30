@@ -1,9 +1,9 @@
 # NetworkWalks-Kshitij-B084-WK1-PM1-Cybersecurity-Lab-Setup
-This is my Cybersecurity lab setup, done under project module of weak-1 of internship at NetworkWalks.
+This is my Cybersecurity lab setup, done under project module of week-1 of internship at NetworkWalks.
 
 # Cybersecurity Testing Lab Setup – VirtualBox + Kali Linux
 
-> **Internship Weak-1**   
+> **Internship Week-1**   
 > **Platform:** Oracle VirtualBox + Kali Linux  
 > **Host OS:** Windows  
 > **Status:** Successfully Installed and Configured  
@@ -22,9 +22,8 @@ This is my Cybersecurity lab setup, done under project module of weak-1 of inter
 6. [Lab Verification](#6-lab-verification)
 7. [Problems Encountered & Solutions](#7-problems-encountered--solutions)
 8. [What I Learned](#8-what-i-learned)
-9. [Screenshots](#9-screenshots)
-10. [Tools & Resources](#10-tools--resources)
-11. [Author](#11-author)
+9. [Tools & Resources](#9-tools--resources)
+ 10. [Author](#10-author)
 
 ---
 
@@ -364,53 +363,7 @@ After troubleshooting and performing a fresh import:
 
 ---
 
-## 9. Screenshots
-
-Screenshots documenting the installation, configuration and verification process are included below.
-
-### 9.1 VirtualBox Manager
-
-![VirtualBox Manager](images/01-virtualbox-manager.png)
-
-### 9.2 Kali Linux VM Imported
-
-![Kali VM Imported](images/02-kali-vm-imported.png)
-
-### 9.3 Kali Linux Desktop
-
-![Kali Linux Desktop](images/03-kali-desktop.png)
-
-### 9.4 NAT Network Configuration
-
-![NAT Network](images/04-nat-network-config.png)
-
-### 9.5 Kali VM Network Settings
-
-![Kali Network Settings](images/05-kali-network-settings.png)
-
-### 9.6 Static IP Configuration
-
-![Static IP](images/06-static-ip-config.png)
-
-### 9.7 Network Connectivity Test
-
-![Connectivity Test](images/07-connectivity-test.png)
-
-### 9.8 DNS and Nmap Verification
-
-![DNS Verification](images/08-dns-verification.png)
-
-### 9.9 Shared Folder Configuration
-
-![Shared Folder](images/09-shared-folder.png)
-
-### 9.10 VirtualBox Snapshot
-
-![Snapshot](images/10-snapshot.png)
-
----
-
-## 10. Tools & Resources
+## 9. Tools & Resources
 
 | Tool / Resource | Purpose | Link |
 |---|---|---|
@@ -423,19 +376,18 @@ Screenshots documenting the installation, configuration and verification process
 
 ---
 
-## 11. Author
+## 10. Author
 
 **Kshitij Kiran Koli**
 
-Computer Engineering Student
-
-Cybersecurity Lab Setup – Week 1
+Third year Computer Engineering Student
+Cybersecurity Intern- NetworkWalks
 
 GitHub: [Your GitHub Profile](https://github.com/your-username)
 
 ---
 
-## 12. Conclusion
+## 11. Conclusion
 
 Successfully installed and configured Kali Linux using Oracle VirtualBox on a Windows host machine.
 
