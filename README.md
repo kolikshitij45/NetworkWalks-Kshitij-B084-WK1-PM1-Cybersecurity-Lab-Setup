@@ -384,10 +384,10 @@ After troubleshooting and performing a fresh import:
 
 **Kshitij Kiran Koli**
 
-Third year Computer Engineering Student
+Third year Computer Engineering Student 
 Cybersecurity Intern- NetworkWalks
 
-GitHub: [Your GitHub Profile](https://github.com/your-username)
+LinkedIn: www.linkedin.com/in/kshitij-koli-b4910b35a 
 
 ---
 
