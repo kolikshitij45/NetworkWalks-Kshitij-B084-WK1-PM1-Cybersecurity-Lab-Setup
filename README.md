@@ -118,7 +118,7 @@ The lab uses Oracle VirtualBox on a Windows host machine. Kali Linux operates as
 | DHCP | Enabled |
 | IPv6 | Disabled |
 
-![NAT Network Configuration](images/04-nat-network-config.png)
+![NAT Network Configuration](images/nat-network-config.png)
 
 ### 4.2 Kali Linux VM Settings
 
@@ -135,7 +135,7 @@ The lab uses Oracle VirtualBox on a Windows host machine. Kali Linux operates as
 | Drag'n'Drop | Bidirectional |
 | Shared Folder | Host Downloads folder |
 
-![Kali VM Settings](images/05-kali-network-settings.png)
+![Kali VM Settings](images/kali-network-settings.png)
 
 ### 4.3 Kali Linux Static IP Configuration
 
@@ -149,7 +149,7 @@ The Kali Linux network interface is configured with a static IPv4 address using 
 | Gateway | `10.0.0.1` |
 | DNS Servers | `8.8.8.8` |
 
-![Static IP Configuration](images/06-static-ip-config.png)
+![Static IP Configuration](images/static-ip-config.png)
 
 ---
 
@@ -196,7 +196,7 @@ The files were stored together in a permanent folder to avoid missing virtual di
 
 Started the imported Kali Linux virtual machine through Oracle VirtualBox and verified that the operating system booted successfully.
 
-![Kali Linux Boot Screen](images/11-kali-boot.png)
+![Kali Linux Boot Screen](images/kali-boot.png)
 
 ### Step 7 – Configure the NAT Network
 
@@ -259,7 +259,7 @@ ping -c 4 8.8.8.8
 | Internet connectivity | Successful ping to `8.8.8.8` | ✅ |
 | NAT Network | `10.0.0.0/24` | ✅ |
 
-![Connectivity Verification](images/07-connectivity-test.png)
+![Connectivity Verification](images/connectivity-test.png)
 
 ### 6.2 DNS Resolution and Tools Verification
 
@@ -276,7 +276,7 @@ nmap --version
 | DNS server | `8.8.8.8` | ✅ |
 | Nmap availability | Verified | ✅ |
 
-![DNS and Nmap Verification](images/08-dns-verification.png)
+![DNS and Nmap Verification](images/dns-verification.png)
 
 ### 6.3 VirtualBox Configuration Verification
 
@@ -290,9 +290,9 @@ nmap --version
 | Shared Folder configured | ✅ |
 | VirtualBox snapshot created | ✅ |
 
-![Shared Folder Configuration](images/09-shared-folder.png)
+![Shared Folder Configuration](images/shared-folder.png)
 
-![VirtualBox Snapshot](images/10-snapshot.png)
+![VirtualBox Snapshot](images/snapshot.png)
 
 **Final Verification:** Kali Linux is successfully installed, configured and running with the required network and VirtualBox settings.
 
