@@ -192,7 +192,13 @@ The files were stored together in a permanent folder to avoid missing virtual di
 4. Selected the `.vbox` machine definition file.
 5. Added the Kali Linux virtual machine to VirtualBox Manager.
 
-### Step 6 – Configure the NAT Network
+### Step 6 – Boot Kali Linux
+
+Started the imported Kali Linux virtual machine through Oracle VirtualBox and verified that the operating system booted successfully.
+
+![Kali Linux Boot Screen](images/11-kali-boot.png)
+
+### Step 7 – Configure the NAT Network
 
 1. Opened VirtualBox Network settings.
 2. Created a custom NAT Network named `NatNetwork`.
@@ -200,7 +206,7 @@ The files were stored together in a permanent folder to avoid missing virtual di
 4. Enabled DHCP.
 5. Applied the network configuration.
 
-### Step 7 – Configure the Kali Linux VM
+### Step 8 – Configure the Kali Linux VM
 
 1. Opened Kali VM Settings.
 2. Navigated to **Network → Adapter 1**.
@@ -210,7 +216,7 @@ The files were stored together in a permanent folder to avoid missing virtual di
 6. Configured Drag'n'Drop as Bidirectional.
 7. Added the host Downloads folder as a shared folder with Auto-mount enabled.
 
-### Step 8 – Configure the Static IP Address
+### Step 9 – Configure the Static IP Address
 
 Opened NetworkManager connection settings and configured the IPv4 settings:
 
@@ -220,11 +226,11 @@ Opened NetworkManager connection settings and configured the IPv4 settings:
 - Gateway: `10.0.0.1`
 - DNS: `8.8.8.8`
 
-### Step 9 – Verify Network Connectivity
+### Step 10 – Verify Network Connectivity
 
 Used Linux networking commands to verify the IP address, gateway, internet connectivity and DNS resolution.
 
-### Step 10 – Create a VirtualBox Snapshot
+### Step 11 – Create a VirtualBox Snapshot
 
 Created a snapshot of the successfully configured Kali Linux virtual machine to preserve a working restore point.
 
