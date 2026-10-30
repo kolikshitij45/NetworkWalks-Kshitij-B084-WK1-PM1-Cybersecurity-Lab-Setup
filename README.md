@@ -259,7 +259,6 @@ ping -c 4 8.8.8.8
 | Internet connectivity | Successful ping to `8.8.8.8` | ✅ |
 | NAT Network | `10.0.0.0/24` | ✅ |
 
-![Connectivity Verification](images/connectivity-test.png)
 
 ### 6.2 DNS Resolution and Tools Verification
 
@@ -290,7 +289,6 @@ nmap --version
 | Shared Folder configured | ✅ |
 | VirtualBox snapshot created | ✅ |
 
-![Shared Folder Configuration](images/shared-folder.png)
 
 ![VirtualBox Snapshot](images/snapshot.png)
 
