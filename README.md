@@ -8,7 +8,7 @@ This is my Cybersecurity lab setup, done under project module of week-1 of inter
 > **Host OS:** Windows  
 > **Status:** Successfully Installed and Configured  
 > **Author:** Kshitij Kiran Koli  
-> **Date:** October 2026
+> **Date:** 29 October 2026
 
 ---
 
